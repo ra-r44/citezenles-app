@@ -1,10 +1,16 @@
-# ============================================================
-# CitizenLens — requirements.txt
-# ============================================================
-# Install locally:   pip install -r requirements.txt
-# After install:     python -m textblob.download_corpora
-# Streamlit Cloud:   Upload alongside app.py — auto-installs
-# ============================================================
+# =============================================================================
+#  CitizenLens — requirements.txt
+#  Open Government Hackathon 2025
+# =============================================================================
+#
+#  Local install:
+#    pip install -r requirements.txt
+#    python -m textblob.download_corpora    ← run ONCE after install
+#
+#  Streamlit Community Cloud:
+#    Upload this file alongside app.py — dependencies install automatically.
+#
+# =============================================================================
 
 streamlit>=1.35.0
 pandas>=2.0.0
